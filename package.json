@@ -1,0 +1,22 @@
+{
+	"name": "karty-podskazhut",
+	"version": "1.0.0",
+	"description": "В этом проекте представлен веб-сайт, демонстрирующий мои навыки на октябрь 2023 года.",
+	"main": "index.js",
+	"scripts": {
+		"checkPrettier": "prettier --check './**/*.{html,css,js}'",
+		"fixPrettier": "prettier --write './**/*.{html,css,js}'",
+		"checkLint": "stylelint \"./**/*.css\"",
+		"fixLint": "stylelint --fix \"./**/*.css\"",
+		"checkAll": "npm run checkPrettier && npm run checkLint",
+		"fixAll": "npm run fixPrettier && npm run fixLint"
+	},
+	"author": "Ivan Platunov",
+	"license": "ISC",
+	"devDependencies": {
+		"prettier": "^3.0.3"
+	},
+	"dependencies": {
+		"stylelint": "^15.10.3"
+	}
+}
