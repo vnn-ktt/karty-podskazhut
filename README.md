@@ -10,7 +10,6 @@
 - Adaptive design: Flexbox and Grid Layout, Media Queries, Responsive Images, Mobile-First Design, Retina Graphics, Mobile-Optimized Fonts.
 
 ## Скриншот
-![Скриншот mobile](https://user-images.githubusercontent.com/106499823/275091038-3f8d7251-5e8b-4650-953a-ede512634316.png)
 ![Скриншот desktop](https://user-images.githubusercontent.com/106499823/275091049-dc84962e-a123-45b9-a415-328723441431.png)
 
 ## Ссылка на репозиторий
