@@ -15,12 +15,34 @@
 	<body class="page theme_dark">
 		<header class="header">
 			<h1 class="heading header__title content-section">Карты подскажут</h1>
+			<nav class="header__menu content-section">
+				<div class="header__logo heading">Oblique</div>
+				<ul class="header__theme-toggler">
+					<li class="header__theme-toggler-item">
+						<button
+							class="header__theme-button header__theme-button_type_dark"
+						>
+							Тёмная
+						</button>
+					</li>
+					<li class="header__theme-toggler-item">
+						<button
+							disabled
+							class="header__theme-button header__theme-button_type_light colored-text"
+						>
+							Светлая
+						</button>
+					</li>
+				</ul>
+			</nav>
 		</header>
 		<main class="content content-section">
 			<h2 class="heading content__title">
 				Креативный подход к решению проблем
 			</h2>
-			<div class="content__text-block">
+			<div
+				class="content__text-block content__text-block_type_first-lettered"
+			>
 				<p class="content__paragraph">
 					Творческие кризисы, кажется, рано или поздно испытывает любой
 					человек. Часто бывает так, что вы сталкиваетесь с проблемой, не
@@ -35,7 +57,9 @@
 				</p>
 			</div>
 			<h2 class="heading content__title">Что это за колода</h2>
-			<div class="content__text-block">
+			<div
+				class="content__text-block content__text-block_type_first-lettered"
+			>
 				<p class="content__paragraph">
 					Тут могло бы быть что-то про пользу игры в «Дурака» или о высших
 					арканах Таро, но у нас на примете другая колода. Она называется
@@ -45,6 +69,28 @@
 					Шмидт.
 				</p>
 			</div>
+			<figure class="content__figure">
+				<picture>
+					<source
+						srcset="./images/cards-1x.avif 1x, ./images/cards-2x.avif 2x"
+						type="image/avif"
+					/>
+					<source
+						srcset="./images/cards-1x.webp 1x, ./images/cards-2x.webp 2x"
+						type="image/webp"
+					/>
+					<img
+						class="content__picture"
+						src="./images/cards-1x.png"
+						srcset="./images/cards-1x.png 1x, ./images/cards-2x.png 2x"
+						alt="Колода Oblique Strategies"
+						loading="lazy"
+					/>
+				</picture>
+				<figcaption class="content__picture-caption">
+					Колода Oblique Strategies
+				</figcaption>
+			</figure>
 			<div class="content__text-block">
 				<p class="content__paragraph">
 					Oblique Strategies в основном используют музыканты, но колода
@@ -64,15 +110,20 @@
 			<h2 class="heading content__title">
 				Как работают «обходные стратегии»
 			</h2>
-			<div class="content__text-block"></div>
-			<h2 class="heading content__title">
-				Кто пользовался Oblique Strategies
-			</h2>
-			<div class="content__text-block">
+			<div
+				class="content__text-block content__text-block_type_first-lettered"
+			>
 				<p class="content__paragraph">
 					Вот что сам Брайан Ино рассказывает о создании Oblique
 					Strategies:
 				</p>
+				<blockquote class="content__blockquote">
+					«Эти карты появились, потому что я оказывался в рабочих ситуациях
+					(особенно в звукозаписывающих студиях), когда из-за паники быстро
+					забывал, что кроме самых очевидных решений были и другие —
+					косвенные. И часто именно такие неочевидные способы выдавали
+					гораздо более интересные результаты, чем решения „в лоб“».
+				</blockquote>
 				<p class="content__paragraph">
 					Таким образом, колода Ино поощряет нас видеть препятствия не как
 					тупики, а как отправные точки для поиска более интересных
@@ -98,8 +149,33 @@
 					>.
 				</p>
 			</div>
+			<article class="content__card">
+				<h3 class="content__card-title heading">
+					Use an <span class="colored-text">old idea</span>
+				</h3>
+				<p class="content__carp-subtitle">Воспользуйтесь старой идеей</p>
+			</article>
+			<h2 class="heading content__title">
+				Кто пользовался Oblique Strategies
+			</h2>
+			<div
+				class="content__text-block content__text-block_type_first-lettered"
+			>
+				<ul class="content__list">
+					<li class="content__list-item">
+						Дэвид Боуи во время записи Берлинской трилогии;
+					</li>
+					<li class="content__list-item">
+						Talking Heads и Дэвид Бирн в сольной карьере;
+					</li>
+					<li class="content__list-item">Coldplay;</li>
+					<li class="content__list-item">MGMT.</li>
+				</ul>
+			</div>
 		</main>
-		<footer class="footer"></footer>
+		<footer class="footer footer_margin_10procents">
+			<p class="footer__copyright">Oblique</p>
+		</footer>
 
 		<script src="./scripts/theme-changer.js"></script>
 	</body>
